@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
+
 
 namespace GeneralStore.MVC.Models
 {
@@ -25,5 +27,8 @@ namespace GeneralStore.MVC.Models
         [Required]
         [Display(Name = "It is food")]
         public bool IsFood { get; set; }
+
+        
+       
     }
 }
